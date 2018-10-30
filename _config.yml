@@ -2,21 +2,3 @@ theme: jekyll-theme-cayman
 
 title: ViralVirus
 description: 5PR34D TH3 V1RU5
-
-plugins:
-  - jekyll-mentions
-
-collections: # These are things that are a group of associated items, like all the products or all the blog post
-  mission: # include our mission
-  about: # include our about page
-  projects: # include projects
-    output: false # Dont render as webpages, we only want to store the data
-    permalink: /:collection/:name
-
-collections_dir: _collections
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
