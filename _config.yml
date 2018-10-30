@@ -5,8 +5,6 @@ description: 5PR34D TH3 V1RU5
 
 plugins:
   - jekyll-mentions
-  
-collections_dir: _collections
 
 collections: # These are things that are a group of associated items, like all the products or all the blog post
   mission: # include our mission
@@ -14,6 +12,8 @@ collections: # These are things that are a group of associated items, like all t
   projects: # include projects
     output: false # Dont render as webpages, we only want to store the data
     permalink: /:collection/:name
+
+collections_dir: _collections
 
 defaults:
   - scope:
