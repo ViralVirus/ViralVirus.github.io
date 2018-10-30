@@ -2,9 +2,3 @@ theme: jekyll-theme-hacker
 
 title: ViralVirus
 description: 5PR34D TH3 V1RU5
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
