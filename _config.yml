@@ -2,3 +2,6 @@ theme: jekyll-theme-hacker
 
 title: V1R4LV1RU5.3X3
 description: 5PR34D TH3 V1RU5
+
+plugins:
+  - jekyll-redirect-from
